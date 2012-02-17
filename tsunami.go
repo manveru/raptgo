@@ -3,7 +3,7 @@ package main
 
 var (
   TsunamiDamage   float64 = 5
-  TsunamiRate     uint64  = 10
+  TsunamiRate     int64  = 10
   TsunamiVelocity = &Vector{X: 0, Y: 10.0}
   TsunamiCost     = 725000
   TsunamiSurface  [14]*Surface
@@ -13,7 +13,7 @@ type Tsunami struct {
   position              *Vector
   velocity              *Vector
   shape                 *RectangleShape
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
   drawFlip              bool
 }
 

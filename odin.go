@@ -3,7 +3,7 @@ package main
 
 var (
   OdinDamage float64 = 5
-  OdinRate   uint64  = 20
+  OdinRate   int64  = 20
   OdinCost   = 512850
   OdinSteps  float64 = 10
   OdinColor  uint32  = 0xaa6600
@@ -13,7 +13,7 @@ type Odin struct {
   from, to              *Vector
   victim                *Enemy
   stepLength            float64
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
 }
 
 func NewOdin() *Odin {

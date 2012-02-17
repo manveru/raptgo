@@ -3,7 +3,7 @@ package main
 
 var (
   DeathrayDamage   float64 = 24
-  DeathrayRate     uint64  = 30
+  DeathrayRate     int64  = 30
   DeathrayCost     = 950000
   DeathrayLifeTime = 10
   DeathrayWidth    int16  = 5
@@ -14,7 +14,7 @@ type Deathray struct {
   from, to              *Vector
   lifeTime              int
   shape                 *RectangleShape
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
 }
 
 func NewDeathray(position *Vector) *Deathray {

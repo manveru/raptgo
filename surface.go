@@ -1,8 +1,6 @@
 package main
 
-import (
-  "sdl"
-)
+import "github.com/banthar/Go-SDL/sdl"
 
 type Surface struct {
   *sdl.Surface

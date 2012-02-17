@@ -1,7 +1,7 @@
 package main
 
 import (
-  "sdl"
+  "github.com/banthar/Go-SDL/sdl"
   . "fmt"
 )
 
@@ -22,13 +22,13 @@ type Raptor struct {
   shape      *RectangleShape
   speed      float64
   weapon     string
-  weapons    []string
+  weapons    [255]string
   money      int
   maxShields int     "number of shields the raptor can hold"
   shields    int     "number of shields left, not including the one in use"
   shield     float64 "energy of the shield currently used"
-  lastShot   uint64
-  lastDamage uint64
+  lastShot   int64
+  lastDamage int64
 }
 
 func NewRaptor(position *Vector) *Raptor {
@@ -41,7 +41,7 @@ func NewRaptor(position *Vector) *Raptor {
     shield:     ShieldEnergy,
   }
 
-  raptor.weapons = &[255]string{
+  raptor.weapons = [255]string{
     '1': "Reaver",
     '2': "Thor",
     '3': "Odin",

@@ -6,7 +6,7 @@ type Goodie struct {
   sprites               []*Surface
   shape                 *CircleShape
   onHit                 func()
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
 }
 
 func NewGoodie(pos, vel *Vector, size int16, sprites []*Surface, onHit func()) *Goodie {
@@ -24,7 +24,7 @@ func NewGoodie(pos, vel *Vector, size int16, sprites []*Surface, onHit func()) *
 }
 
 func (g *Goodie) Draw() {
-  n := uint64(len(g.sprites))
+  n := int64(len(g.sprites))
   surface := g.sprites[FrameTicks%n]
   Draw(surface, g.position)
 }
@@ -55,7 +55,7 @@ func MakeShieldpackSurface() {
 
 func NewShieldpack(pos, vel Vector) *Goodie {
   return NewGoodie(
-    &pos, &vel, 5, &ShieldpackSurface,
+    &pos, &vel, 5, ShieldpackSurface[:],
     func() {
       if Player.shields < Player.maxShields {
         Player.shields += 1
@@ -76,7 +76,7 @@ func MakeMoneybagSurface() {
 
 func NewMoneybag(pos, vel Vector) *Goodie {
   return NewGoodie(
-    &pos, &vel, 5, &MoneybagSurface,
+    &pos, &vel, 5, MoneybagSurface[:],
     func() { Player.money += 1000 },
   )
 }

@@ -3,7 +3,7 @@ package main
 
 var (
   EclipseDamage   float64 = 40
-  EclipseRate     uint64  = 30
+  EclipseRate     int64  = 30
   EclipseCost     = 950000
   EclipseLifeTime = 10
   EclipseWidth    int16  = 5
@@ -14,7 +14,7 @@ type Eclipse struct {
   lifeTime              int
   offsetX, offsetY      float64
   shape                 *RectangleShape
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
 }
 
 func NewEclipse(offsetX, offsetY float64) *Eclipse {

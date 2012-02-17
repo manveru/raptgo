@@ -1,6 +1,6 @@
 package main
 
-import "sdl"
+import "github.com/banthar/Go-SDL/sdl"
 
 type Shapeish interface {
   Collides(Shapeish) bool

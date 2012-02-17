@@ -4,7 +4,7 @@ package main
 
 var (
   MaulerDamage   float64 = 4
-  MaulerRate     uint64  = 24
+  MaulerRate     int64  = 24
   MaulerVelocity = &Vector{X: 0, Y: -4.0}
   MaulerCost     = 63500
   MaulerSurface  *Surface
@@ -18,7 +18,7 @@ type Mauler struct {
   speed                 float64
   shape                 *CircleShape
   spread                int
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
 }
 
 func NewMauler(position, velocity Vector) *Mauler {

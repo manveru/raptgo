@@ -13,7 +13,7 @@ package main
 
 var (
   FlakDamage   float64 = 2
-  FlakRate     uint64  = 40
+  FlakRate     int64  = 40
   FlakVelocity = &Vector{X: 0, Y: -4.0}
   FlakSurface  *Surface
   FlakSize     int16 = 5
@@ -23,7 +23,7 @@ type Flak struct {
   position              *Vector
   velocity              *Vector
   shape                 *CircleShape
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
 }
 
 func NewFlak(pos Vector) *Flak {

@@ -17,7 +17,7 @@ package main
 
 var (
   MissileDamage   float64 = 2
-  MissileRate     uint64  = 20
+  MissileRate     int64  = 20
   MissileVelocity = &Vector{X: 0, Y: 5.0}
   MissileCost     = 175600
   MissileSurface  *Surface
@@ -27,7 +27,7 @@ type Missile struct {
   position              *Vector
   velocity              *Vector
   shape                 *RectangleShape
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
 }
 
 func NewMissile(pos Vector) *Missile {

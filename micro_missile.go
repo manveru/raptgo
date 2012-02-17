@@ -3,7 +3,7 @@ package main
 
 var (
   MicroMissileDamage   float64 = 2
-  MicroMissileRate     uint64  = 8
+  MicroMissileRate     int64  = 8
   MicroMissileVelocity = &Vector{X: 0, Y: 5.0}
   MicroMissileCost     = 175600
   MicroMissileSurface  *Surface
@@ -14,7 +14,7 @@ type MicroMissile struct {
   position              *Vector
   velocity              *Vector
   shape                 *CircleShape
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
 }
 
 func NewMicroMissile(pos Vector) *MicroMissile {

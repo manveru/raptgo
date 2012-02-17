@@ -1,6 +1,6 @@
 package main
 
-import "rand"
+import "math/rand"
 // import . "fmt"
 
 func Level1() {
@@ -59,7 +59,7 @@ func Level2() {
   Background = CreateImage("gfx/level1.png")
 
   for t := 0; t < 100; t++ {
-    r := rand.Float()
+    r := rand.Float64()
     x := float64(rand.Intn(Width))
     v := Vector{x, 0}
 

@@ -15,7 +15,7 @@
    inkscape:version="0.47 r22583"
    width="32"
    height="30"
-   sodipodi:docname="stinger.png">
+   sodipodi:docname="stinger.svg">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -642,9 +642,9 @@
      inkscape:window-height="745"
      id="namedview4"
      showgrid="true"
-     inkscape:zoom="1.2670455"
-     inkscape:cx="70.074339"
-     inkscape:cy="89.281762"
+     inkscape:zoom="8.291943"
+     inkscape:cx="38.263072"
+     inkscape:cy="15.346207"
      inkscape:window-x="0"
      inkscape:window-y="19"
      inkscape:window-maximized="0"
@@ -659,14 +659,20 @@
      width="7"
      height="9"
      x="0.93817902"
-     y="7" />
+     y="7"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient4164);fill-opacity:1;stroke:none"
      id="rect4135-8"
      width="7"
      height="9"
      x="25.061821"
-     y="7.041481" />
+     y="7.041481"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3864);fill-opacity:1;stroke:none"
      id="rect3637-7"
@@ -676,7 +682,10 @@
      y="-24.999998"
      ry="1.9999981"
      rx="2"
-     transform="scale(-1,-1)" />
+     transform="scale(-1,-1)"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3848);fill-opacity:1;stroke:none"
      id="rect3637-7-0"
@@ -686,7 +695,10 @@
      y="-24.958517"
      ry="1.9999981"
      rx="2"
-     transform="scale(-1,-1)" />
+     transform="scale(-1,-1)"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      sodipodi:type="arc"
      style="fill:url(#radialGradient3874);fill-opacity:1;stroke:none"
@@ -698,7 +710,10 @@
      d="M 11.04148,10.25 A 8.0414801,8.0414801 0 0 1 3,2.2085198 l 8.04148,4e-7 z"
      sodipodi:start="1.5707963"
      sodipodi:end="3.1415927"
-     transform="matrix(1.1243552,0,0,1,-0.414546,-1.2500003)" />
+     transform="matrix(1.1243552,0,0,1,-0.414546,-1.2500003)"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      sodipodi:type="arc"
      style="fill:url(#radialGradient3882);fill-opacity:1;stroke:none"
@@ -710,7 +725,10 @@
      d="M 11.04148,10.25 A 8.0414801,8.0414801 0 0 1 3,2.2085198 l 8.04148,4e-7 z"
      sodipodi:start="1.5707963"
      sodipodi:end="3.1415927"
-     transform="matrix(-1.1243552,0,0,1,33.41455,-1.2914803)" />
+     transform="matrix(-1.1243552,0,0,1,33.41455,-1.2914803)"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3906);fill-opacity:1;stroke:none"
      id="rect3637"
@@ -719,7 +737,10 @@
      x="11"
      y="-1.0414801"
      ry="2.0672872"
-     rx="3" />
+     rx="3"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3735);fill-opacity:1;stroke:none"
      id="rect3727"
@@ -728,7 +749,10 @@
      x="18"
      y="9"
      rx="0"
-     ry="0" />
+     ry="0"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3927);fill-opacity:1;stroke:none"
      id="rect3727-1"
@@ -737,17 +761,26 @@
      x="12"
      y="9"
      rx="0"
-     ry="0" />
+     ry="0"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      style="fill:#000000;fill-opacity:1;stroke:none"
      d="m 13,9 1,0 0,1 1,0 0,1 -1,0 0,1 -1,0 0,-1 -1,0 0,-1 1,0 0,-1 z"
      id="rect3597"
-     sodipodi:nodetypes="ccccccccccccc" />
+     sodipodi:nodetypes="ccccccccccccc"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      style="fill:#000000;fill-opacity:1;stroke:none"
      d="m 19,9 1,0 0,1 1,0 0,1 -1,0 0,1 -1,0 0,-1 -1,0 0,-1 1,0 0,-1 z"
      id="rect3597-12"
-     sodipodi:nodetypes="ccccccccccccc" />
+     sodipodi:nodetypes="ccccccccccccc"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      sodipodi:type="arc"
      style="fill:none;stroke:#246874;stroke-opacity:1"
@@ -757,7 +790,10 @@
      sodipodi:rx="2.4984465"
      sodipodi:ry="2.4518826"
      d="m 26.996894,4.5481172 a 2.4984465,2.4518826 0 1 1 -4.996893,0 2.4984465,2.4518826 0 1 1 4.996893,0 z"
-     transform="translate(-17.000001,-0.5481172)" />
+     transform="translate(-17.000001,-0.5481172)"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      sodipodi:type="arc"
      style="fill:none;stroke:#246874;stroke-opacity:1"
@@ -767,7 +803,10 @@
      sodipodi:rx="2.4984465"
      sodipodi:ry="2.4518826"
      d="m 26.996894,4.5481172 a 2.4984465,2.4518826 0 1 1 -4.996893,0 2.4984465,2.4518826 0 1 1 4.996893,0 z"
-     transform="translate(0.999999,-0.5481176)" />
+     transform="translate(0.999999,-0.5481176)"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3898);fill-opacity:1;stroke:none"
      id="rect3661"
@@ -776,7 +815,10 @@
      x="7"
      y="16"
      rx="0"
-     ry="0" />
+     ry="0"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      sodipodi:type="arc"
      style="fill:url(#radialGradient3890);fill-opacity:1;stroke:none"
@@ -788,21 +830,30 @@
      d="m 23.389013,23.014574 a 7.0145741,7.0145741 0 1 1 -14.0291478,0 l 7.0145738,0 z"
      sodipodi:start="0"
      sodipodi:end="3.1415927"
-     transform="matrix(0.78408183,0,0,1.5664058,3.6611,-18.050162)" />
+     transform="matrix(0.78408183,0,0,1.5664058,3.6611,-18.050162)"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3797);fill-opacity:1;stroke:none"
      id="rect3773"
      width="6.9381809"
      height="3.9999998"
      x="1"
-     y="16" />
+     y="16"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3819);fill-opacity:1;stroke:none"
      id="rect3773-1"
      width="6.9381809"
      height="3.9585187"
      x="25.061821"
-     y="16.041481" />
+     y="16.041481"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3980);fill-opacity:1;stroke:none"
      id="rect3727-9"
@@ -811,7 +862,10 @@
      x="18"
      y="5"
      rx="0"
-     ry="0" />
+     ry="0"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3927-4);fill-opacity:1;stroke:none"
      id="rect3727-1-5"
@@ -820,17 +874,26 @@
      x="12"
      y="5"
      rx="0"
-     ry="0" />
+     ry="0"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      style="fill:#000000;fill-opacity:1;stroke:none"
      d="m 13,5 1,0 0,1 1,0 0,1 -1,0 0,1 -1,0 0,-1 -1,0 0,-1 1,0 0,-1 z"
      id="rect3597-3"
-     sodipodi:nodetypes="ccccccccccccc" />
+     sodipodi:nodetypes="ccccccccccccc"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      style="fill:#000000;fill-opacity:1;stroke:none"
      d="m 19,5 1,0 0,1 1,0 0,1 -1,0 0,1 -1,0 0,-1 -1,0 0,-1 1,0 0,-1 z"
      id="rect3597-12-5"
-     sodipodi:nodetypes="ccccccccccccc" />
+     sodipodi:nodetypes="ccccccccccccc"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient4051);fill-opacity:1;stroke:none"
      id="rect3727-9-5"
@@ -839,7 +902,10 @@
      x="18"
      y="13"
      rx="0"
-     ry="0" />
+     ry="0"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3927-4-2);fill-opacity:1;stroke:none"
      id="rect3727-1-5-4"
@@ -848,17 +914,26 @@
      x="12"
      y="13"
      rx="0"
-     ry="0" />
+     ry="0"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      style="fill:#000000;fill-opacity:1;stroke:none"
      d="m 13,13 1,0 0,1 1,0 0,1 -1,0 0,1 -1,0 0,-1 -1,0 0,-1 1,0 0,-1 z"
      id="rect3597-3-3"
-     sodipodi:nodetypes="ccccccccccccc" />
+     sodipodi:nodetypes="ccccccccccccc"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      style="fill:#000000;fill-opacity:1;stroke:none"
      d="m 19,13 1,0 0,1 1,0 0,1 -1,0 0,1 -1,0 0,-1 -1,0 0,-1 1,0 0,-1 z"
      id="rect3597-12-5-4"
-     sodipodi:nodetypes="ccccccccccccc" />
+     sodipodi:nodetypes="ccccccccccccc"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient4051-9);fill-opacity:1;stroke:none"
      id="rect3727-9-2"
@@ -867,7 +942,10 @@
      x="18"
      y="1"
      rx="0"
-     ry="0" />
+     ry="0"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <rect
      style="fill:url(#linearGradient3927-4-7);fill-opacity:1;stroke:none"
      id="rect3727-1-5-6"
@@ -876,15 +954,24 @@
      x="12"
      y="1"
      rx="0"
-     ry="0" />
+     ry="0"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      style="fill:#000000;fill-opacity:1;stroke:none"
      d="m 13,1 1,0 0,1 1,0 0,1 -1,0 0,1 -1,0 0,-1 -1,0 0,-1 1,0 0,-1 z"
      id="rect3597-3-0"
-     sodipodi:nodetypes="ccccccccccccc" />
+     sodipodi:nodetypes="ccccccccccccc"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
   <path
      style="fill:#000000;fill-opacity:1;stroke:none"
      d="m 19,1 1,0 0,1 1,0 0,1 -1,0 0,1 -1,0 0,-1 -1,0 0,-1 1,0 0,-1 z"
      id="rect3597-12-5-0"
-     sodipodi:nodetypes="ccccccccccccc" />
+     sodipodi:nodetypes="ccccccccccccc"
+     inkscape:export-filename="/home/manveru/Dropbox/prog/go/raptgo/gfx/stinger.png"
+     inkscape:export-xdpi="85.714287"
+     inkscape:export-ydpi="85.714287" />
 </svg>

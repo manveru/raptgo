@@ -3,7 +3,7 @@ package main
 
 var (
   MineDamage   float64 = 16
-  MineRate     uint64  = 100
+  MineRate     int64  = 100
   MineVelocity = &Vector{X: 0, Y: 1.0}
   MineCost     = 12000
   MineSurface  [5]*Surface
@@ -14,7 +14,7 @@ type Mine struct {
   position              *Vector
   velocity              *Vector
   shape                 *CircleShape
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
 }
 
 func NewMine(pos Vector) *Mine {

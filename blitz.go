@@ -1,12 +1,13 @@
 // Blitz, my own creation just for fun
 package main
 
-import "math"
-import "rand"
+import("math"
+"math/rand"
+)
 
 var (
   BlitzDamage float64 = 3
-  BlitzRate   uint64  = 20
+  BlitzRate   int64  = 20
   BlitzCost   = 120000
   BlitzColor  uint32 = 0x0000ff
   BlitzJumps  = 10
@@ -16,10 +17,10 @@ var (
 type Blitz struct {
   from, to              *Vector
   jumps                 int
-  whatNow               func(*Blitz)
+  whatNow               int
   victim                *Enemy
-  lifeTime              uint64
-  DrawablesId, ActorsId uint64
+  lifeTime              int64
+  DrawablesId, ActorsId int64
 }
 
 func NewBlitz(pos Vector) *Blitz {
@@ -29,7 +30,7 @@ func NewBlitz(pos Vector) *Blitz {
     from:     from,
     jumps:    BlitzJumps,
     to:       &Vector{X: from.X, Y: 0},
-    whatNow:  (*Blitz).Seek,
+    whatNow:  0,
     lifeTime: BlitzRate,
   }
 
@@ -39,11 +40,11 @@ func NewBlitz(pos Vector) *Blitz {
 }
 
 func (b *Blitz) Draw() {
-  if b.whatNow == (*Blitz).Seek {
+  if b.whatNow == 0 {
     cx, cy := int16(b.from.X), int16(b.from.Y)
     radius := BlitzRange
 
-    for i := float64(0.0); i < 2*math.Pi; i += float64(rand.Float()) {
+    for i := float64(0.0); i < 2*math.Pi; i += rand.Float64() {
       x := cx + int16(radius*math.Sin(i))
       y := cy + int16(radius*math.Cos(i))
       Screen.DrawLine(int16(cx), int16(cy), x, y, BlitzColor)
@@ -65,7 +66,11 @@ func (b *Blitz) Act() {
   }
 
   b.lifeTime--
-  b.whatNow(b)
+  if b.whatNow == 0 {
+    b.Seek()
+  } else {
+    b.Jump()
+  }
 }
 
 func (b *Blitz) Seek() {
@@ -78,7 +83,7 @@ func (b *Blitz) Seek() {
     if enemy.shape.Collides(circle) {
       b.to.Replace(enemy.position)
       b.victim = enemy
-      b.whatNow = (*Blitz).Jump
+      b.whatNow = 1
       return
     }
   }
@@ -90,5 +95,5 @@ func (b *Blitz) Jump() {
   b.jumps--
   b.victim.TakeDamage(BlitzDamage)
   b.from.Replace(b.victim.position)
-  b.whatNow = (*Blitz).Seek
+  b.whatNow = 0
 }

@@ -18,7 +18,7 @@ package main
 
 var (
   TrackingFlakDamage   float64 = 2
-  TrackingFlakRate     uint64  = 40
+  TrackingFlakRate     int64  = 40
   TrackingFlakVelocity = &Vector{X: 0, Y: -4.0}
   TrackingFlakSurface  *Surface
   TrackingFlakSize     int16 = 5
@@ -28,7 +28,7 @@ type TrackingFlak struct {
   position              *Vector
   velocity              *Vector
   shape                 *CircleShape
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
 }
 
 func NewTrackingFlak(pos Vector) *TrackingFlak {

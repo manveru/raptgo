@@ -3,7 +3,7 @@ package main
 
 var (
   ReaverDamage   float64 = 2
-  ReaverRate     uint64  = 5
+  ReaverRate     int64  = 5
   ReaverVelocity = &Vector{X: 0, Y: 5.0}
   ReaverCost     = 12000
   ReaverSurface  [4]*Surface
@@ -14,7 +14,7 @@ type Reaver struct {
   position              *Vector
   velocity              *Vector
   shape                 *CircleShape
-  DrawablesId, ActorsId uint64
+  DrawablesId, ActorsId int64
 }
 
 func NewReaver(pos Vector) *Reaver {
