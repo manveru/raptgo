@@ -70,7 +70,7 @@ var MoneybagSurface [1]*Surface
 
 func MakeMoneybagSurface() {
   MoneybagSurface = [1]*Surface{
-    &Surface{RenderText("$", Yellow)},
+    {RenderText("$", Yellow)},
   }
 }
 

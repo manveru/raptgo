@@ -17,9 +17,9 @@ package main
 
 var (
   MissileDamage   float64 = 2
-  MissileRate     int64  = 20
-  MissileVelocity = &Vector{X: 0, Y: 5.0}
-  MissileCost     = 175600
+  MissileRate     int64   = 20
+  MissileVelocity         = &Vector{X: 0, Y: 5.0}
+  MissileCost             = 175600
   MissileSurface  *Surface
 )
 

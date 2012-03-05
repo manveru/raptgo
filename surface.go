@@ -1,6 +1,10 @@
 package main
 
-import "github.com/banthar/Go-SDL/sdl"
+import (
+  "github.com/banthar/Go-SDL/sdl"
+  "os"
+  "strings"
+)
 
 type Surface struct {
   *sdl.Surface
@@ -58,11 +62,17 @@ func CreateRGBSurface(width, height int) *Surface {
 }
 
 func CreateImage(path string) *Surface {
-  img := sdl.Load(path)
-  if img == nil {
-    panic(sdl.GetError())
+  gopaths := strings.Split(os.Getenv("GOPATH"), ":")
+
+  var img *sdl.Surface
+  for _, gopath := range gopaths {
+    img = sdl.Load(gopath + "/src/github.com/manveru/raptgo/" + path)
+    if img != nil {
+      return &Surface{img}
+    }
   }
-  return &Surface{img}
+
+  panic(sdl.GetError())
 }
 
 func (self *Surface) CircleOutlinePoints(cx, cy, x, y int16, color uint32) {

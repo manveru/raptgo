@@ -3,9 +3,9 @@ package main
 
 var (
   ReaverDamage   float64 = 2
-  ReaverRate     int64  = 5
-  ReaverVelocity = &Vector{X: 0, Y: 5.0}
-  ReaverCost     = 12000
+  ReaverRate     int64   = 5
+  ReaverVelocity         = &Vector{X: 0, Y: 5.0}
+  ReaverCost             = 12000
   ReaverSurface  [4]*Surface
   ReaverSize     int16 = 3
 )

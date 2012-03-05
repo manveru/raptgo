@@ -3,11 +3,11 @@ package main
 
 var (
   EclipseDamage   float64 = 40
-  EclipseRate     int64  = 30
-  EclipseCost     = 950000
-  EclipseLifeTime = 10
-  EclipseWidth    int16  = 5
-  EclipseColor    uint32 = 0xff6600
+  EclipseRate     int64   = 30
+  EclipseCost             = 950000
+  EclipseLifeTime         = 10
+  EclipseWidth    int16   = 5
+  EclipseColor    uint32  = 0xff6600
 )
 
 type Eclipse struct {

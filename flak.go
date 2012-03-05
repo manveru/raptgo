@@ -13,8 +13,8 @@ package main
 
 var (
   FlakDamage   float64 = 2
-  FlakRate     int64  = 40
-  FlakVelocity = &Vector{X: 0, Y: -4.0}
+  FlakRate     int64   = 40
+  FlakVelocity         = &Vector{X: 0, Y: -4.0}
   FlakSurface  *Surface
   FlakSize     int16 = 5
 )

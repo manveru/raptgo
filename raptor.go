@@ -1,8 +1,8 @@
 package main
 
 import (
-  "github.com/banthar/Go-SDL/sdl"
   . "fmt"
+  "github.com/banthar/Go-SDL/sdl"
 )
 
 var (
@@ -229,13 +229,20 @@ func (r *Raptor) FireWeapon() {
 
   // fire the selected weapon
   switch r.weapon {
-    case "Reaver": r.FireReaver()
-    case "Thor": r.FireThor()
-    case "Odin": r.FireOdin()
-    case "Mauler": r.FireMauler()
-    case "Tsunami": r.FireTsunami()
-    case "Deathray": r.FireDeathray()
-    case "Eclipse": r.FireEclipse()
+  case "Reaver":
+    r.FireReaver()
+  case "Thor":
+    r.FireThor()
+  case "Odin":
+    r.FireOdin()
+  case "Mauler":
+    r.FireMauler()
+  case "Tsunami":
+    r.FireTsunami()
+  case "Deathray":
+    r.FireDeathray()
+  case "Eclipse":
+    r.FireEclipse()
   }
 
   r.lastShot = ActorTicks

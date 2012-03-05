@@ -1,16 +1,17 @@
 // Blitz, my own creation just for fun
 package main
 
-import("math"
-"math/rand"
+import (
+  "math"
+  "math/rand"
 )
 
 var (
   BlitzDamage float64 = 3
-  BlitzRate   int64  = 20
-  BlitzCost   = 120000
-  BlitzColor  uint32 = 0x0000ff
-  BlitzJumps  = 10
+  BlitzRate   int64   = 20
+  BlitzCost           = 120000
+  BlitzColor  uint32  = 0x0000ff
+  BlitzJumps          = 10
   BlitzRange  float64 = 200
 )
 

@@ -4,12 +4,12 @@ package main
 
 var (
   MaulerDamage   float64 = 4
-  MaulerRate     int64  = 24
-  MaulerVelocity = &Vector{X: 0, Y: -4.0}
-  MaulerCost     = 63500
+  MaulerRate     int64   = 24
+  MaulerVelocity         = &Vector{X: 0, Y: -4.0}
+  MaulerCost             = 63500
   MaulerSurface  *Surface
   MaulerSize     int16 = 3
-  MaulerSpread   = 50
+  MaulerSpread         = 50
 )
 
 type Mauler struct {

@@ -3,11 +3,11 @@ package main
 
 var (
   DeathrayDamage   float64 = 24
-  DeathrayRate     int64  = 30
-  DeathrayCost     = 950000
-  DeathrayLifeTime = 10
-  DeathrayWidth    int16  = 5
-  DeathrayColor    uint32 = 0xff6600
+  DeathrayRate     int64   = 30
+  DeathrayCost             = 950000
+  DeathrayLifeTime         = 10
+  DeathrayWidth    int16   = 5
+  DeathrayColor    uint32  = 0xff6600
 )
 
 type Deathray struct {

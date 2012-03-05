@@ -3,9 +3,9 @@ package main
 
 var (
   MicroMissileDamage   float64 = 2
-  MicroMissileRate     int64  = 8
-  MicroMissileVelocity = &Vector{X: 0, Y: 5.0}
-  MicroMissileCost     = 175600
+  MicroMissileRate     int64   = 8
+  MicroMissileVelocity         = &Vector{X: 0, Y: 5.0}
+  MicroMissileCost             = 175600
   MicroMissileSurface  *Surface
   MicroMissileSize     int16 = 3
 )

@@ -3,9 +3,9 @@ package main
 
 var (
   TsunamiDamage   float64 = 5
-  TsunamiRate     int64  = 10
-  TsunamiVelocity = &Vector{X: 0, Y: 10.0}
-  TsunamiCost     = 725000
+  TsunamiRate     int64   = 10
+  TsunamiVelocity         = &Vector{X: 0, Y: 10.0}
+  TsunamiCost             = 725000
   TsunamiSurface  [14]*Surface
 )
 

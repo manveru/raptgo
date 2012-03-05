@@ -13,28 +13,28 @@ var EnemySpecs map[string]EnemySpec
 
 func init() {
   EnemySpecs = map[string]EnemySpec{
-    "stinger": EnemySpec{
+    "stinger": {
       health:      20,
       moneyReward: 20,
       velocity:    Vector{0, 1},
       weapon:      (*Enemy).FireFlak,
       sprite:      "gfx/stinger.png",
     },
-    "bee": EnemySpec{
+    "bee": {
       health:      20,
       moneyReward: 40,
       velocity:    Vector{0, 0.5},
       weapon:      (*Enemy).FireTrackingFlak,
       sprite:      "gfx/bee.png",
     },
-    "hornet": EnemySpec{
+    "hornet": {
       health:      20,
       moneyReward: 40,
       velocity:    Vector{0, 0.5},
       weapon:      (*Enemy).FireMissile,
       sprite:      "gfx/rocketeer.png",
     },
-    "miner": EnemySpec{
+    "miner": {
       health:      10,
       moneyReward: 50,
       velocity:    Vector{0, 2},

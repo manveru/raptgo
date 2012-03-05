@@ -3,9 +3,9 @@ package main
 
 var (
   MineDamage   float64 = 16
-  MineRate     int64  = 100
-  MineVelocity = &Vector{X: 0, Y: 1.0}
-  MineCost     = 12000
+  MineRate     int64   = 100
+  MineVelocity         = &Vector{X: 0, Y: 1.0}
+  MineCost             = 12000
   MineSurface  [5]*Surface
   MineSize     int16 = 3
 )

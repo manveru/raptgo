@@ -18,8 +18,8 @@ package main
 
 var (
   TrackingFlakDamage   float64 = 2
-  TrackingFlakRate     int64  = 40
-  TrackingFlakVelocity = &Vector{X: 0, Y: -4.0}
+  TrackingFlakRate     int64   = 40
+  TrackingFlakVelocity         = &Vector{X: 0, Y: -4.0}
   TrackingFlakSurface  *Surface
   TrackingFlakSize     int16 = 5
 )

@@ -3,8 +3,8 @@ package main
 
 var (
   OdinDamage float64 = 5
-  OdinRate   int64  = 20
-  OdinCost   = 512850
+  OdinRate   int64   = 20
+  OdinCost           = 512850
   OdinSteps  float64 = 10
   OdinColor  uint32  = 0xaa6600
 )

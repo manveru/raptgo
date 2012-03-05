@@ -1,6 +1,7 @@
 package main
 
 import "math/rand"
+
 // import . "fmt"
 
 func Level1() {
